@@ -1,0 +1,35 @@
+video {
+    position: fixed;
+    top: 0px;
+    z-index: -1;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #000;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+form {
+    width: auto;
+    position: absolute;
+    padding: 30px;
+    left: 40%;
+    top: 40%;
+    border-radius: 30px;
+    background-color: rgb(173, 13, 13);
+    z-index: 2;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+label {
+    color: rgb(34, 8, 8);
+}
+input{
+    color: rgb(34, 8, 8);
+    background-color: rgb(151, 11, 11);
+}
+
